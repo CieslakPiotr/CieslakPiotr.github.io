@@ -1,11 +1,11 @@
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin: 0 auto;
 }
 
 .navigation {
     width: 75%;
-    padding: 15px 0 15px 0;
+    padding: 20px 0;
     font-size: 20px;
     display: flex;
     justify-content: space-between;
@@ -15,8 +15,12 @@
 .links_nav {
     display: flex;
     gap: 20px;
-    margin-left: auto;
+    margin-right: 0;
     justify-content: flex-end;
+}
+
+.name-div {
+    margin: 0;
 }
 
 .navigation a {
@@ -34,4 +38,39 @@
 
 .main_container h1 {
     font-size: 40px;
+}
+
+.main_container a {
+    text-decoration: none;
+}
+
+.about-me {
+    width: 60%;
+}
+
+.about-me p {
+    color: grey;
+}
+
+.github_button {
+    background-color: black;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+.linkedin_button {
+    background-color: #0077B5;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.github_button:hover {
+    background-color: rgb(113, 111, 111);
+}
+
+.linkedin_button:hover {
+    background-color: #03466a;
 }
