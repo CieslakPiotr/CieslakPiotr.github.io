@@ -74,3 +74,8 @@
 .linkedin_button:hover {
     background-color: #03466a;
 }
+
+.projects-container {
+    margin-top: 100px;
+    width: 75%;
+}
