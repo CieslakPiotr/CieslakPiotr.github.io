@@ -12,6 +12,10 @@
     align-items: center;
 }
 
+.name-div {
+    margin: 0;
+}
+
 .links_nav {
     display: flex;
     gap: 20px;
@@ -19,19 +23,17 @@
     justify-content: flex-end;
 }
 
-.name-div {
-    margin: 0;
-}
-
-.navigation a {
-    text-decoration: none;
+.links_nav a {
+    text-decoration: none !important;
     padding: 10px;
+    color: black !important;
 }
 
-.navigation a:hover {
+.links_nav a:hover {
     background-color: rgb(241, 241, 241);
     border-radius: 20px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .main_container {
