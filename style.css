@@ -79,3 +79,10 @@
     margin-top: 100px;
     width: 75%;
 }
+
+.contact {
+    margin-top: 100px;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
