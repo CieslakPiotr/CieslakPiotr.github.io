@@ -181,3 +181,37 @@
     padding: 40px 0;
     margin-top: 20px;
 }
+
+@media screen and (max-width: 768px) {
+    .links_nav {
+        display: none;
+    }
+
+    .my-photo {
+        display: none;
+    }
+
+    .about-me {
+        width: 90%;
+        text-align: center;
+    }
+
+    .social-buttons {
+        display: flex;
+        flex-direction: column; 
+        gap: 10px;
+    }
+
+    .github_button,
+    .linkedin_button {
+        width: 170px;
+        text-align: center;
+    }
+
+    .contact input,
+    .contact textarea,
+    .contact button {
+        width: 90%;
+        width: 300px;
+    }
+}
